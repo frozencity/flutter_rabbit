@@ -48,7 +48,7 @@ There is a detailed example project in the `example` folder. You can directly ru
 See CHANGELOG for all breaking (and non-breaking) changes.
 
 <hr/>
-Packaged by <a href="https://github.com/frozencity">frozencity</a>
-Rabbit Converter written in Dart by <a href="https://github.com/frencojobs">frencojobs</a>
-Rabbit Converter written originally by <a href="https://github.com/saturngod">saturngod</a>
+Packaged by <a href="https://github.com/frozencity">frozencity</a>.<br />
+Rabbit Converter written in Dart by <a href="https://github.com/frencojobs">frencojobs</a>.<br />
+Rabbit Converter written originally by <a href="https://github.com/saturngod">saturngod</a>.<br />
 

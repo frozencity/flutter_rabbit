@@ -1,6 +1,5 @@
-# flutter_rabbit
-
-Rabbit Converter package for Flutter. This is a wrapper for Rabbit Converter.
+Rabbit Converter package for Flutter.
+Using this, you can convert Burmese Strings to and from Zawgyi and Unicode.
 
 ## Features
 - Converts from ZawGyi to Myanmar Unicode.
@@ -11,7 +10,7 @@ Rabbit Converter package for Flutter. This is a wrapper for Rabbit Converter.
 You must add the library as a dependency to your project.
 ```yaml
 dependencies:
- rabbit_converter: ^0.0.1
+ rabbit_converter: ^1.0.0
 ```
 
 You should then run `flutter packages get`
@@ -33,8 +32,7 @@ Simply call the function to convert the string.
 
 ## Example Project
 
-There is a detailed example project in the `example` folder. You can directly run and play on it. There are code snippets from example project below.
-
+There is a detailed example project in the `example` folder.
 
 ##
 

@@ -5,4 +5,4 @@
 
 ## [1.0.0] - Feb 2020.
 
-* Stable Release. 
+* Stable Release.

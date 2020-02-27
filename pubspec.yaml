@@ -1,8 +1,8 @@
 name: rabbit_converter
-description: Rabbit Converter Dart Package for Flutter.
-version: 0.0.1
+description: Rabbit Converter Package for Flutter. Rabbit Converter is a library to convert between Burmese Text Encodings (i.e. Zawgyi and Myanmar Unicode).
+version: 1.0.0
 author: frozencity, frencojobs, saturngod & Rabbit Contributers.
-homepage: http://www.rabbit-converter.org/
+homepage: https://www.rabbit-converter.org/
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

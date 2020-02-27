@@ -2,11 +2,11 @@
 
 Rabbit Converter package for Flutter. This is a wrapper for Rabbit Converter.
 
-##Features
+## Features
 - Converts from ZawGyi to Myanmar Unicode.
 - Converts from Myanmar Unicode to ZawGyi.
 
-##Usage
+## Usage
 
 You must add the library as a dependency to your project.
 ```yaml

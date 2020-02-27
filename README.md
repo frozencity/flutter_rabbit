@@ -31,18 +31,24 @@ Simply call the function to convert the string.
 
 ##
 
+## Example Project
+
+There is a detailed example project in the `example` folder. You can directly run and play on it. There are code snippets from example project below.
+
+
 ##
 
 
+## Contributions
+* If you **found a bug**, open an issue.
+* If you **have a feature request**, open an issue.
+* If you **want to contribute**, submit a pull request.
+## Version compatibility
 
+See CHANGELOG for all breaking (and non-breaking) changes.
 
-## Getting Started
+<hr/>
+Packaged by <a href="https://github.com/frozencity">frozencity</a>
+Rabbit Converter written in Dart by <a href="https://github.com/frencojobs">frencojobs</a>
+Rabbit Converter written originally by <a href="https://github.com/saturngod">saturngod</a>
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.

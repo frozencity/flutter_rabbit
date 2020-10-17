@@ -1,17 +1,19 @@
-import 'package:flutter_test/flutter_test.dart';
-
+import 'package:test/test.dart';
 import 'package:rabbit_converter/rabbit_converter.dart';
 
 void main() {
+  final cases = <String, String>{
+    'သီဟိုဠ်မှ ဉာဏ်ကြီးရှင်သည် အာယုဝဍ္ဎနဆေးညွှန်းစာကို ဇလွန်ဈေးဘေး ဗာဒံပင်ထက် အဓိဋ္ဌာန်လျက် ဂဃနဏဖတ်ခဲ့သည်။':
+        'သီဟိုဠ္မွ ဉာဏ္ႀကီးရွင္သည္ အာယုဝၯနေဆးၫႊန္းစာကို ဇလြန္ေဈးေဘး ဗာဒံပင္ထက္ အဓိ႒ာန္လ်က္ ဂဃနဏဖတ္ခဲ့သည္။',
+  };
 
-  String text = 'ယေဓမ္မာ ဟေတုပ္ပဘဝါ တေသံ ဟေတုံ တထာဂတော အာဟ တေသဉ္စ ယောနိရောဓေါ ဧဝံ ဝါဒီ မဟာသမဏော။';
-  String zawgyiText = Rabbit.uni2zg(text);
-  String unicodeText = Rabbit.zg2uni(zawgyiText);
+  test('should pass all the test cases', () {
+    for (final entry in cases.entries) {
+      final zawgyi = Rabbit.uni2zg(entry.key);
+      final unicode = Rabbit.zg2uni(entry.value);
 
-  print(zawgyiText);
-  print(unicodeText);
-
-  expect(Rabbit.uni2zg(text),'ေယဓမၼာ ေဟတုပၸဘဝါ ေတသံ ေဟတုံ တထာဂေတာ အာဟ ေတသၪၥ ေယာနိေရာေဓါ ဧဝံ ဝါဒီ မဟာသမေဏာ။');
-  expect(Rabbit.zg2uni(zawgyiText),text);
-
+      expect(unicode, Rabbit.zg2uni(zawgyi));
+      expect(zawgyi, Rabbit.uni2zg(unicode));
+    }
+  });
 }

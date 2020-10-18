@@ -12,8 +12,8 @@ void main() {
       final zawgyi = Rabbit.uni2zg(entry.key);
       final unicode = Rabbit.zg2uni(entry.value);
 
-      expect(unicode, Rabbit.zg2uni(zawgyi));
-      expect(zawgyi, Rabbit.uni2zg(unicode));
+      expect(unicode, entry.key);
+      expect(zawgyi, entry.value);
     }
   });
 }

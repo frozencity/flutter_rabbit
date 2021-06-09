@@ -18,9 +18,9 @@ abstract class Rabbit {
     var output = input;
 
     for (final rule in rules) {
-      output = output.replaceAllMapped(RegExp(rule['from']), (match1) {
-        return rule['to'].replaceAllMapped(RegExp(r'#(\d{1})'), (match2) {
-          return match1.group(int.parse(match2.group(1))) ?? '';
+      output = output.replaceAllMapped(RegExp(rule['from']!), (match1) {
+        return rule['to']!.replaceAllMapped(RegExp(r'#(\d{1})'), (match2) {
+          return match1.group(int.parse(match2.group(1)!)) ?? '';
         });
       });
     }

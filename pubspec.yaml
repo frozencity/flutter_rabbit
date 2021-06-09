@@ -1,11 +1,11 @@
 name: rabbit_converter
 description: Rabbit Converter is a library to convert text between different Burmese Text Encodings (i.e. Zawgyi and Unicode).
-version: 1.0.1
+version: 2.0.0
 homepage: https://www.rabbit-converter.org
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
 dev_dependencies:
-  test: ^1.6.0
-  lint: ^1.3.0
+  test: ^1.17.5
+  lint: ^1.5.3

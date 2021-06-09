@@ -11,14 +11,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Rabbit Converter Example'),
+      home: MyHomePage(),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
-  final String title;
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
@@ -33,7 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Text('Flutter Rabbit Converter Example'),
       ),
       body: Form(
         key: formKey,
@@ -66,8 +64,8 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {
-          if (formKey.currentState.validate()) {
-            formKey.currentState.save();
+          if (formKey.currentState!.validate()) {
+            formKey.currentState!.save();
             setState(() {});
           }
         },

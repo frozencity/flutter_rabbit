@@ -1,3 +1,6 @@
+## 2.0.0
+* Migrated to Null Safety.
+
 ## 1.0.1
 * Merged PR from frencojobs. Cleaned the underlying code.
 
